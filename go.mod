@@ -5,14 +5,14 @@ go 1.24.0
 toolchain go1.24.5
 
 require (
-	github.com/JohnPlummer/jp-go-resilience v0.3.0
-	github.com/onsi/ginkgo/v2 v2.27.2
-	github.com/onsi/gomega v1.38.2
+	github.com/JohnPlummer/jp-go-resilience v0.3.1
+	github.com/onsi/ginkgo/v2 v2.27.3
+	github.com/onsi/gomega v1.38.3
 	googlemaps.github.io/maps v1.7.0
 )
 
 require (
-	github.com/JohnPlummer/jp-go-errors v0.2.0 // indirect
+	github.com/JohnPlummer/jp-go-errors v1.1.0 // indirect
 	github.com/Masterminds/semver/v3 v3.4.0 // indirect
 	github.com/cockroachdb/errors v1.12.0 // indirect
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b // indirect
@@ -29,7 +29,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/sethvargo/go-retry v0.3.0 // indirect
-	github.com/sony/gobreaker/v2 v2.3.0 // indirect
+	github.com/sony/gobreaker/v2 v2.4.0 // indirect
 	go.opencensus.io v0.22.3 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/mod v0.27.0 // indirect
