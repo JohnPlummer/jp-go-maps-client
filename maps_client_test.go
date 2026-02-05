@@ -140,7 +140,7 @@ var _ = Describe("Client", func() {
 
 	AfterEach(func() {
 		if client != nil {
-			client.Close()
+			_ = client.Close()
 		}
 	})
 
